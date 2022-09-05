@@ -1,0 +1,82 @@
+body{
+    background-image: url("background.jpg");
+    background-size: 1920px 1200px;    
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.293);
+    border-radius: 5%;
+    margin-top: 3%;
+}
+
+div > header{
+    text-align: center;
+}
+
+.logo{
+    width: 200px;    
+    
+}
+
+.logo-text{
+    font-style:normal;
+    font-size: 40px;
+    color: rgb(2, 206, 13);
+}
+
+nav > div{
+    background-color: rgb(2, 206, 13);
+    text-align: center;
+    
+}
+
+div > input{
+    margin: 1%;
+}
+
+main{
+    margin: 4%;
+    
+}
+
+ul > li{
+    color: white;
+    font-size: 22px;
+    font-style: initial;
+}
+
+.segno::before{
+    content: "\2605";
+    color: rgb(2, 206, 13);
+}
+
+ul > p {
+    color: white;
+    font-style: inherit;
+}
+
+.low-level{
+    width: 100px;
+    height: 27px;
+    background-color: red;
+    
+}
+
+.med-level{
+    width: 400px;
+    height: 27px;
+    background-color: orange;    
+}
+
+.high-level{
+    width: 800px;
+    height: 27px;
+    background-color: rgb(2, 206, 13);
+    
+}
+
+footer > div{
+    height: 27px;
+}
